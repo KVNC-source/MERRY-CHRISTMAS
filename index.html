@@ -17,17 +17,14 @@
         <div class="nav-links">
           <a href="index.html">HOME</a>
           <a href="about.html">ABOUT YOU</a>
-          <a href="#">PORTFOLIOS</a>
-          <a href="#">CONTACT US</a>
-        </div>
-        <div class="search-icon">
-          <i class="fas fa-search"></i>
+          <a href="moments.html">MOMENTS OF YOU</a>
+          <a href="wishes.html">MY WISHES</a>
         </div>
       </nav>
 
       <div class="content-wrapper">
         <aside class="sidebar">
-          <div class="vertical-text">MERRY CHRISTMAS</div>
+          <div class="vertical-text">CLARISSA</div>
         </aside>
 
         <main class="main-content">
@@ -38,39 +35,59 @@
 
           <p class="intro-text">
             Merry Christmas and I hope you have the best of holidays you sweet
-            angel <span class="heart-icon"></span>
+            angel. <span class="heart-icon"></span>
           </p>
 
           <div class="page-indicator">
             <hr />
-            <p>01/06</p>
+            <p>01/04</p>
           </div>
 
           <div class="gift-section">
-            <h3>Your Special Holiday Gift Ticket</h3>
+            <h3 style="font-size: 1.1em; opacity: 0.8">
+              A Little Something For You
+            </h3>
 
-            <div class="gift-ticket" id="giftTicket">
-              <div class="gift-content" id="giftContent">
-                A Weekend Getaway to the Mountains!
+            <div class="gift-container">
+              <div class="gift-content-wrap" id="giftContentWrap">
+                <img
+                  src="ASSETS/WhatsApp Image 2025-12-23 at 11.32.54 AM.jpeg"
+                  alt="Surprise"
+                  class="revealed-image"
+                />
+                <!-- This is the "Silit payback" text -->
+                <p id="paybackText" class="payback-text">Silit payback</p>
               </div>
 
-              <div class="cover-layer" id="coverLayer">
-                <p>Click to Reveal Your Special Gift!</p>
-              </div>
+              <button class="reveal-btn" id="giftTicket">
+                <i class="fas fa-gift"></i> Open Your Gift
+              </button>
             </div>
           </div>
         </main>
 
-        <div class="santa-image">
-          <img
-            src="santa.png"
-            alt="Santa in a Christmas Wreath"
-            class="santa-placeholder"
-          />
-          <p class="santa-label">Happy Holidays!</p>
+        <div class="ornament-container">
+          <div class="tree-wrapper">
+            <i class="fas fa-tree"></i>
+            <i class="fas fa-star star-decoration s1"></i>
+            <i class="fas fa-star star-decoration s2"></i>
+            <i class="fas fa-star star-decoration s3"></i>
+            <i class="fas fa-star star-decoration s4"></i>
+            <i class="fas fa-star star-decoration s5"></i>
+            <i class="fas fa-star star-decoration s6"></i>
+          </div>
+          <p class="ornament-quote">"You are brighter than any star."</p>
         </div>
       </div>
     </div>
+
+    <audio
+      id="bgMusic"
+      loop
+      autoplay
+      src="ASSETS/Elvis Presley - Take My Hand Precious Lord (Official Audio).mp3"
+    ></audio>
+
     <script src="script.js"></script>
   </body>
 </html>
